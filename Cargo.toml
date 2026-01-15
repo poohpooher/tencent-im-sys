@@ -1,0 +1,15 @@
+[package]
+name = "tencent-im-sys"
+version = "0.1.0"
+edition = "2024"
+authors = ["poohpooher@gmail.com"]
+description = "[Unofficial] Tencent IM SDK Rust FFI Bindings"
+license = "MIT"
+repository = "http://github.com/poohpooher/tencent-im-sys"
+documentation = "https://docs.rs/tencent-im-sys/latest/tencent-im-sys/"
+
+[lib]
+crate-type = ["lib"]
+
+[build-dependencies]
+bindgen = "0.72.1"
