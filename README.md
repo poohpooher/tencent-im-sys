@@ -8,11 +8,13 @@
 
 ## Build Requirement
 https://rust-lang.github.io/rust-bindgen/requirements.html
-~~~~~~~~
+
+
 ## How Use
 After creating an sdk directory in the project's Manifest Dir, place TIM.lib and TIM.dll of Tencent IM SDK.
 
 ```Rust
+
 // build.rs
 
 use std::fs;
